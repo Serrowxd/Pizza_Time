@@ -11,7 +11,7 @@ const routes: Routes = [
     component: HomepageComponent,
   },
   {
-    path: 'secondpage',
+    path: 'second-page',
     component: SecondpageComponent,
   },
 ];
