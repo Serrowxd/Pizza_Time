@@ -1,0 +1,32 @@
+.jumbo-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  position: relative;
+  overflow: hidden;
+
+  height: 400px;
+
+  img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  }
+
+  h1 {
+    position: relative;
+    z-index: 2;
+    color: white;
+  }
+}
+
+.color-filter {
+  background-color: #2f2f2f;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.6;
+  z-index: -1;
+}
