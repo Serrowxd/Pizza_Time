@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomepageComponent implements OnInit {
   constructor() {}
 
-  title = 'Pizza Time';
+  headerimage = '/assets/jumbo-bkg.jpg';
 
   ngOnInit() {}
 }
